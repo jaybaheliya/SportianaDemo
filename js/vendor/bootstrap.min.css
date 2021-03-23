@@ -5922,7 +5922,7 @@ a.close.disabled {
     position: relative;
     width: auto;
     margin: .5rem;
-    pointer-events: none
+    pointer-events: all;
 }
 
 .modal.fade .modal-dialog {

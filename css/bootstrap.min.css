@@ -3757,7 +3757,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     width: 100%
 }
 
-.fade {
+/*.fade {
     opacity: 0;
     -webkit-transition: opacity .15s linear;
     -o-transition: opacity .15s linear;
@@ -3766,7 +3766,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 
     .fade.in {
         opacity: 1
-    }
+    }*/
 
 .collapse {
     display: none
@@ -6263,7 +6263,7 @@ button.close {
     border: 0
 }
 
-.modal-open {
+/*.modal-open {
     overflow: hidden
 }
 
@@ -6408,7 +6408,7 @@ button.close {
         width: 900px
     }
 }
-
+*/
 .tooltip {
     position: absolute;
     z-index: 1070;

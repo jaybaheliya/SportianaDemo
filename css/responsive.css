@@ -388,6 +388,13 @@
 		-o-transform: translateY(0);
 		transform: translateY(0);
 	}
+		.tg-wrapper > .tg-navigationm-mobile.show {
+			-webkit-transform: translateY(0);
+			-moz-transform: translateY(0);
+			-ms-transform: translateY(0);
+			-o-transform: translateY(0);
+			transform: translateY(0);
+		}
 	.tg-navigation .tg-colhalf:last-child,
 	.tg-navigationm-mobile .tg-colhalf{
 		width:100%;

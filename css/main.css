@@ -1468,6 +1468,7 @@ address {
 .tg-modal-content {
     width: 100%;
     float: left;
+    background:#fff;
 }
 
     .tg-logintype,
@@ -2229,8 +2230,8 @@ address {
 }
 
     .tg-main .tg-main-section:first-child {
-        margin: -20px 0 0;
-        padding: 100px 0 80px;
+        margin: 0px 0 0;
+        padding: 60px 0 60px;
     }
 /*=============================================
 			About Us
@@ -3188,7 +3189,7 @@ address {
     width: 100%;
     float: left;
     z-index: 3;
-    padding: 80px 0;
+    padding: 40px 0;
     position: relative;
 }
 
@@ -3338,14 +3339,17 @@ address {
     float: left;
     list-style: none;
     line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
     .tg-contactinfo li {
-        width: 100%;
         float: left;
-        padding: 0 0 15px;
+        padding: 0px 20px 15px;
         line-height: inherit;
         list-style-type: none;
+        display: inline;
     }
 
         .tg-contactinfo li i {
@@ -3386,7 +3390,7 @@ address {
 .tg-copyright {
     color: #fff;
     float: left;
-    padding: 20px 0;
+    padding: 14px 0;
     font-size: 12px;
     line-height: 20px;
 }
@@ -3396,7 +3400,7 @@ address {
     font-size: 14px;
     line-height: 20px;
     font-weight: 300;
-    padding: 20px 0;
+    padding: 14px 0;
     font-family: 'Oswald', Arial, Helvetica, sans-serif;
 }
 
@@ -3405,6 +3409,7 @@ address {
         float: left;
         line-height: 20px;
         list-style: none;
+        margin-bottom: 0;
     }
 
         .tg-footernav ul li {
@@ -4721,8 +4726,10 @@ address {
         }
 
     .tg-ticket .tg-matchdetail {
-        width: 350px;
+        /*width: 350px;*/
         padding: 0 30px 0 0;
+        word-break: break-word;
+        white-space: normal;
     }
 
     .tg-ticket .tg-theme-tag {
@@ -4766,12 +4773,12 @@ address {
         padding: 0 0 0 10px;
     }
 
-        .tg-matchmetadata li + li:before {
+       /* .tg-matchmetadata li + li:before {
             left: 1px;
             bottom: 0;
             content: ',';
             position: absolute;
-        }
+        }*/
 
     .tg-matchmetadata li address {
         margin: 0;
@@ -6686,9 +6693,7 @@ div.system-loader-wrap {
     justify-content: center;
     text-shadow: 2px 0px 0px rgb(0 0 0 / 30%);
 }
-.s-booking-main .tg-tag:hover {
-background
-}
+
 .s-booking-main .tg-tag:hover {
     text-shadow: 1px 0px 0px rgb(0 0 0 / 10%);
 }
@@ -6820,3 +6825,65 @@ background
 		transform: translateY(-88.88);
 	}*/
 }
+a:hover {
+    text-decoration: none !important;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1250px !important;
+}
+.s-flex-comman {
+    flex: 0 18.80%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+
+.item1 {
+    grid-area: ALL-SPORTS;
+}
+
+.item2 {
+    grid-area: FOOTBALL;
+}
+
+.item3 {
+    grid-area: CRICKET;
+}
+
+.item4 {
+    grid-area: FITNESS-EVENTS;
+}
+
+.item5 {
+    grid-area: OFFERS;
+    height: 100%;
+    display: grid;
+}
+
+.s-grid-container {
+    display: grid;
+    grid-template-areas: 'ALL-SPORTS FOOTBALL OFFERS' 'CRICKET FITNESS-EVENTS OFFERS';
+    grid-gap: 10px;
+    /*background-color: #2196F3;*/
+}
+
+    .s-grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        /*text-align: center;*/
+        font-size: 30px;
+    }
+    .s-grid-container .tg-ticket {
+        display: flex;
+    }
+        .s-grid-container .tg-ticket .tg-matchdetail {
+            padding: 0 0px 0 0;
+        }
+    .s-grid-container .tg-matchmetadata li {
+        line-height: 26px;
+        font-size: 16px;
+    }
+    .s-grid-container .tg-ticket {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
