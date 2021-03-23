@@ -6601,6 +6601,7 @@ div.system-loader-wrap {
     height: 100%;
     width: 100%;
     animation: filter infinite 3s linear;
+    z-index: -1;
 }
 
 @keyframes filter {
@@ -6684,6 +6685,9 @@ div.system-loader-wrap {
     align-items: center;
     justify-content: center;
     text-shadow: 2px 0px 0px rgb(0 0 0 / 30%);
+}
+.s-booking-main .tg-tag:hover {
+background
 }
 .s-booking-main .tg-tag:hover {
     text-shadow: 1px 0px 0px rgb(0 0 0 / 10%);
