@@ -4516,8 +4516,8 @@ address {
     }
 
 .tg-matchdate {
-    width: 76px;
-    height: 76px;
+    min-width: 76px;
+    min-height: 76px;
     float: left;
     color: #fff;
     padding: 13px;
@@ -6841,27 +6841,50 @@ a:hover {
     margin-bottom: 15px;
 }
 
-
+.tg-ticket {
+    mix-blend-mode: multiply;
+}
 .item1 {
     grid-area: ALL-SPORTS;
+    background: #f7f7f7 url(../../../images/icon/sports.svg) no-repeat;
+    background-size: 90px 90px;
+    background-position: 96% center;
+    background-blend-mode: screen;
 }
 
 .item2 {
     grid-area: FOOTBALL;
+    background: #f7f7f7 url(../../../images/icon/football-ball.svg) no-repeat;
+    background-size: 90px 90px;
+    background-position: 96% center;
+    background-blend-mode: screen;
 }
 
 .item3 {
     grid-area: CRICKET;
+    background: #f7f7f7 url(../../../images/icon/cricket1.svg) no-repeat;
+    background-size: 100px 100px;
+    background-position: 96% center;
+    background-blend-mode: screen;
 }
 
 .item4 {
     grid-area: FITNESS-EVENTS;
+    background: #f7f7f7 url(../../../images/icon/sport.svg) no-repeat;
+    background-size: 90px 90px;
+    background-position: 96% center;
+    background-blend-mode: screen;
 }
 
 .item5 {
     grid-area: OFFERS;
+    position: relative;
     height: 100%;
     display: grid;
+    background: #f7f7f7 url(../../../images/icon/gift-card.svg) no-repeat;
+    background-size: 110px 110px;
+    background-position: right;
+    background-blend-mode: screen;
 }
 
 .s-grid-container {
@@ -6875,7 +6898,15 @@ a:hover {
         background-color: rgba(255, 255, 255, 0.8);
         /*text-align: center;*/
         font-size: 30px;
+        border:1px solid #eee;
     }
+.tg-matchdate {
+    transition:all 0.5s linear;
+}
+.s-grid-container > div:hover .tg-matchdate {
+    border-radius: 50%;
+}
+   
     .s-grid-container .tg-ticket {
         display: flex;
     }
@@ -6891,3 +6922,17 @@ a:hover {
         display: flex;
         align-items: center;
     }
+.bg-transp {
+    position:relative;
+}
+.bg-transp:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+}
