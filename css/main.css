@@ -6667,6 +6667,10 @@ div.system-loader-wrap {
     /*border: none !important;*/
     color: #fff;
 }
+.s-booking-main .nav-tabs > li > a.active {
+    border-bottom: 3px solid gold !important;
+
+}
 
 .s-booking-main .tg-btn {
     padding: 0 25px;
