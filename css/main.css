@@ -6846,7 +6846,7 @@ a:hover {
 }
 .item1 {
     grid-area: ALL-SPORTS;
-    background: #f7f7f7 url(../../../images/icon/sports.svg) no-repeat;
+    background: #f7f7f7 url(../images/icon/sports.svg) no-repeat;
     background-size: 90px 90px;
     background-position: 96% center;
     background-blend-mode: screen;
@@ -6854,7 +6854,7 @@ a:hover {
 
 .item2 {
     grid-area: FOOTBALL;
-    background: #f7f7f7 url(../../../images/icon/football-ball.svg) no-repeat;
+    background: #f7f7f7 url(../images/icon/football-ball.svg) no-repeat;
     background-size: 90px 90px;
     background-position: 96% center;
     background-blend-mode: screen;
@@ -6862,7 +6862,7 @@ a:hover {
 
 .item3 {
     grid-area: CRICKET;
-    background: #f7f7f7 url(../../../images/icon/cricket1.svg) no-repeat;
+    background: #f7f7f7 url(../images/icon/cricket1.svg) no-repeat;
     background-size: 100px 100px;
     background-position: 96% center;
     background-blend-mode: screen;
@@ -6870,7 +6870,7 @@ a:hover {
 
 .item4 {
     grid-area: FITNESS-EVENTS;
-    background: #f7f7f7 url(../../../images/icon/sport.svg) no-repeat;
+    background: #f7f7f7 url(../images/icon/sport.svg) no-repeat;
     background-size: 90px 90px;
     background-position: 96% center;
     background-blend-mode: screen;
@@ -6881,7 +6881,7 @@ a:hover {
     position: relative;
     height: 100%;
     display: grid;
-    background: #f7f7f7 url(../../../images/icon/gift-card.svg) no-repeat;
+    background: #f7f7f7 url(../images/icon/gift-card.svg) no-repeat;
     background-size: 110px 110px;
     background-position: right;
     background-blend-mode: screen;
