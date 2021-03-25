@@ -29,6 +29,10 @@
     padding: 0px;
 }
 
+:root {
+    --bgcolor-secondary: #313a87;
+}
+
 html,
 body {
     position: relative;
@@ -6935,4 +6939,55 @@ a:hover {
     left: 0;
     right: 0;
     background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+.full-pattern {
+    background: url(../images/source/pattern3.png) no-repeat center #f4f4f4;
+    padding: 20px 0px;
+}
+    .full-pattern ul {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+        .full-pattern ul li {
+            display: inline-block;
+            margin-right: 30px;
+        }
+ol, ul {
+    list-style: none;
+}
+.darkgoldenrod {
+    color: darkgoldenrod;
+}
+.full-pattern p{
+    font-size: 18px;
+}
+.add-offer {
+    position: relative;
+    background: #8ca800 url(../images/source/transparent-bg.png);
+    background-repeat: repeat;
+}
+.add1 .add-offer:after {
+    border-color: #ffffff rgba(255, 255, 255, 0.0);
+    border-style: solid;
+    border-width: 0 0 100px 100px;
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    right: -1px;
+    width: 0;
+}
+.add1:hover .add-offer:after, .add1:hover > img {
+    opacity: 0;
+}
+.add1 .add-offer:after {
+    transition: all 0.4s cubic-bezier(0.74, 0.01, 0, 1) 0s;
+}
+.add1 > img {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
 }

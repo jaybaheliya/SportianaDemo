@@ -1023,4 +1023,21 @@
 @media (max-width:320px){
 	.tg-authorpic {margin: 133px 15px -30px 0;}
 	.tg-soccermedia-content2 .tg-project figure figcaption {bottom: -21px;}
+	.tg-matchdate {
+		margin: 0 15px 0px 0;
+	}
+	.s-grid-container {
+		display: block;
+	}
+	.s-booking-main {
+		width: 100%;
+	}
+	.s-booking-start {
+		position: relative;
+		bottom: 0;
+	}
+	.tg-main-section {
+		padding: 20px 0;
+		overflow: hidden;
+	}
 }
