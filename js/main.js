@@ -62,7 +62,7 @@ $(document).ready(function() {
 			var moveY = (e.pageY - docY/2) / (docY/2) * -moveForce;
 			var rotateY = (e.pageX / docX * rotateForce*2) - rotateForce;
 			var rotateX = -((e.pageY / docY * rotateForce*2) - rotateForce);
-			$('.s-booking-main > .img-punch , .tg-imglayer')
+			$('.s-booking-main > .img-punch , .gbLayer')
 			.css('left', moveX+'px')
 			.css('top', moveY+'px')
 			.css('transform', 'rotateX('+rotateX+'deg) rotateY('+rotateY+'deg)');
