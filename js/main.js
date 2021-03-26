@@ -62,7 +62,7 @@ $(document).ready(function() {
 			var moveY = (e.pageY - docY/2) / (docY/2) * -moveForce;
 			var rotateY = (e.pageX / docX * rotateForce*2) - rotateForce;
 			var rotateX = -((e.pageY / docY * rotateForce*2) - rotateForce);
-			$('.s-booking-main > .img-punch ')
+			$('.s-booking-main > .img-punch , .tg-imglayer')
 			.css('left', moveX+'px')
 			.css('top', moveY+'px')
 			.css('transform', 'rotateX('+rotateX+'deg) rotateY('+rotateY+'deg)');
@@ -277,10 +277,36 @@ $(document).ready(function() {
 		autoplay: 0,
 	});
 	/*------------------------------------------
-			PLAYER GIRD SLIDER
+			PLAYER GIRD SLIDER  
 	------------------------------------------*/
 	var swiper = new Swiper('#tg-player-slider', {
-		slidesPerView: 4,
+		slidesPerView: 1,
+		spaceBetween: 30,
+		mousewheelControl: true,
+		nextButton: '.tg-themebtnnext',
+		prevButton: '.tg-themebtnprev',
+		autoplay: 0,
+		breakpoints: {
+			479: {
+				slidesPerView: 1,
+				spaceBetween: 0,
+			},
+			640: {
+				slidesPerView: 1,
+			},
+			767: {
+				slidesPerView: 1,
+				spaceBetween: 15,
+			},
+			991: {
+				slidesPerView: 1,
+			}
+		}
+	});
+
+
+	var swiper = new Swiper('#popularVenues', {
+		slidesPerView: 2,
 		spaceBetween: 30,
 		mousewheelControl: true,
 		nextButton: '.tg-themebtnnext',
@@ -303,6 +329,7 @@ $(document).ready(function() {
 			}
 		}
 	});
+
 	/*------------------------------------------
 			CONTENT ANIMATION
 	------------------------------------------*/

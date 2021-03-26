@@ -4522,6 +4522,7 @@ address {
 .tg-matchdate {
     min-width: 76px;
     min-height: 76px;
+    border-radius: 50px;
     float: left;
     color: #fff;
     padding: 13px;
@@ -6902,7 +6903,9 @@ a:hover {
         background-color: rgba(255, 255, 255, 0.9);
         /*text-align: center;*/
         font-size: 30px;
-        border:1px solid #eee;
+        border: 1px solid #eee;
+        border-radius: 50px;
+        overflow:hidden;
     }
 .tg-matchdate {
     transition:all 0.5s linear;
