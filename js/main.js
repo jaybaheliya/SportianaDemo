@@ -306,7 +306,7 @@ $(document).ready(function() {
 
 
 	var swiper = new Swiper('#popularVenues', {
-		slidesPerView: 2,
+		slidesPerView: 3,
 		spaceBetween: 30,
 		mousewheelControl: true,
 		nextButton: '.tg-themebtnnext',
