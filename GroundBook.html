@@ -4,7 +4,7 @@
 <!--[if IE 8]>			<html class="no-js lt-ie9" lang="zxx"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang="zxx">
- <!--<![endif]-->
+<!--<![endif]-->
 
 <head>
     <meta charset="utf-8">
@@ -13,7 +13,11 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/bootstrap-formhelpers.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
 
 
     <link rel="stylesheet" href="css/normalize.css">
@@ -53,24 +57,40 @@
                     <li>
                         <a href="#">Main</a>
                         <ul class="tg-dropdown-menu">
-                            <li><a href="index-2.html">home1</a></li>
-                            <li><a href="index2.html">home2</a></li>
+                            <li>
+                                <a href="index-2.html">home1</a>
+                            </li>
+                            <li>
+                                <a href="index2.html">home2</a>
+                            </li>
                         </ul>
                     </li>
                     <li>
                         <a href="#">team</a>
                         <ul class="tg-dropdown-menu">
-                            <li><a href="playergrid-v1.html">playergrid-v1</a></li>
-                            <li><a href="playergrid-v2.html">playergrid-v2</a></li>
-                            <li><a href="playerdetail.html">playergrid detail</a></li>
+                            <li>
+                                <a href="playergrid-v1.html">playergrid-v1</a>
+                            </li>
+                            <li>
+                                <a href="playergrid-v2.html">playergrid-v2</a>
+                            </li>
+                            <li>
+                                <a href="playerdetail.html">playergrid detail</a>
+                            </li>
                         </ul>
                     </li>
-                    <li class="active"><a href="buyticket.html">Buy Tickets</a></li>
+                    <li class="active">
+                        <a href="buyticket.html">Buy Tickets</a>
+                    </li>
                     <li>
                         <a href="#">Match Results</a>
                         <ul class="tg-dropdown-menu">
-                            <li><a href="matchresult.html">match result</a></li>
-                            <li><a href="matchresultdetail.html">match result detail</a></li>
+                            <li>
+                                <a href="matchresult.html">match result</a>
+                            </li>
+                            <li>
+                                <a href="matchresultdetail.html">match result detail</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -80,30 +100,58 @@
                     <li>
                         <a href="#">fixtures</a>
                         <ul class="tg-dropdown-menu">
-                            <li><a href="fixtures.html">fixtures</a></li>
-                            <li><a href="fixturedetail.html">fixture detail</a></li>
+                            <li>
+                                <a href="fixtures.html">fixtures</a>
+                            </li>
+                            <li>
+                                <a href="fixturedetail.html">fixture detail</a>
+                            </li>
                         </ul>
                     </li>
                     <li>
                         <a href="#">pro soccer media</a>
                         <ul class="tg-dropdown-menu">
-                            <li><a href="soccermedia-1.html">pro soccer media1</a></li>
-                            <li><a href="soccermedia-2.html">pro soccer media2</a></li>
+                            <li>
+                                <a href="soccermedia-1.html">pro soccer media1</a>
+                            </li>
+                            <li>
+                                <a href="soccermedia-2.html">pro soccer media2</a>
+                            </li>
                         </ul>
                     </li>
-                    <li><a href="contactus.html">Contact</a></li>
+                    <li>
+                        <a href="contactus.html">Contact</a>
+                    </li>
                     <li>
                         <a href="#"><i class=" fa fa-navicon"></i></a>
                         <ul>
-                            <li><a href="aboutus.html">about us</a></li>
-                            <li><a href="shoplist.html">shop list</a></li>
-                            <li><a href="shopgrid.html">shop grid</a></li>
-                            <li><a href="productsingle.html">shop detail</a></li>
-                            <li><a href="bloglist.html">blog list</a></li>
-                            <li><a href="bloggrid.html">blog grid</a></li>
-                            <li><a href="blogdetail.html">blog detail</a></li>
-                            <li><a href="404.html">404 error</a></li>
-                            <li><a href="comming-soon.html">comming soon</a></li>
+                            <li>
+                                <a href="aboutus.html">about us</a>
+                            </li>
+                            <li>
+                                <a href="shoplist.html">shop list</a>
+                            </li>
+                            <li>
+                                <a href="shopgrid.html">shop grid</a>
+                            </li>
+                            <li>
+                                <a href="productsingle.html">shop detail</a>
+                            </li>
+                            <li>
+                                <a href="bloglist.html">blog list</a>
+                            </li>
+                            <li>
+                                <a href="bloggrid.html">blog grid</a>
+                            </li>
+                            <li>
+                                <a href="blogdetail.html">blog detail</a>
+                            </li>
+                            <li>
+                                <a href="404.html">404 error</a>
+                            </li>
+                            <li>
+                                <a href="comming-soon.html">comming soon</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -130,8 +178,12 @@
                                     <div class="tg-colhalf pull-right">
                                         <nav class="tg-addnav">
                                             <ul>
-                                                <li><a href="javascript().html" data-toggle="modal" data-target="#tg-login">login</a></li>
-                                                <li><a href="javascript().html" data-toggle="modal" data-target="#tg-register">Register</a></li>
+                                                <li>
+                                                    <a href="javascript().html" data-toggle="modal" data-target="#tg-login">login</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript().html" data-toggle="modal" data-target="#tg-register">Register</a>
+                                                </li>
                                                 <li>
                                                     <a id="tg-btn-search" href="javascript:void(0)"><i class="fa fa-search"></i></a>
                                                 </li>
@@ -183,7 +235,9 @@
                                         <li>
                                             <a href="#">About Us</a>
                                         </li>
-                                        <li><a href="#">Book & Play</a></li>
+                                        <li>
+                                            <a href="#">Book & Play</a>
+                                        </li>
                                         <li>
                                             <a href="#">Book for Events</a>
                                         </li>
@@ -197,15 +251,27 @@
                                         <li>
                                             <a href="#">Partner with us</a>
                                         </li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li>
+                                            <a href="#">Contact</a>
+                                        </li>
                                         <li>
                                             <a href="#"><i class=" fa fa-navicon"></i></a>
                                             <ul>
-                                                <li><a href="#"> <i class="fa fa-ellipsis-v mr-3"></i> All Sports</a></li>
-                                                <li><a href="#"><i class="fa fa-soccer-ball-o mr-3"></i> Football</a></li>
-                                                <li><a href="#"><i class="fa fa-dot-circle-o mr-3"></i> Cricket</a></li>
-                                                <li><a href="#"> <i class="fa fa-calendar mr-3"></i> Fitness & Events</a></li>
-                                                <li><a href="#"> <i class="fa fa-gift mr-3"></i> Offers</a></li>
+                                                <li>
+                                                    <a href="#"> <i class="fa fa-ellipsis-v mr-3"></i> All Sports</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa fa-soccer-ball-o mr-3"></i> Football</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa fa-dot-circle-o mr-3"></i> Cricket</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> <i class="fa fa-calendar mr-3"></i> Fitness & Events</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> <i class="fa fa-gift mr-3"></i> Offers</a>
+                                                </li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -224,9 +290,9 @@
         *************************************-->
         <div class="tg-banner tg-haslayout">
             <div class="tg-imglayer gbLayer">
-        <img src="images/slider/bg1.jpg" alt="image desctription" style="position: absolute; bottom: -10%;">
-    </div>
-            
+                <img src="images/slider/bg1.jpg" alt="image desctription" style="position: absolute; bottom: -10%;">
+            </div>
+
             <div class="container">
                 <div class="row">
                     <div class="tg-banner-content tg-haslayout">
@@ -234,7 +300,9 @@
                             <h1>Ground Booking</h1>
                         </div>
                         <ol class="tg-breadcrumb">
-                            <li><a href="#">Home</a></li>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
                             <li class="active">Ground Booking</li>
                         </ol>
                     </div>
@@ -249,7 +317,414 @@
         *************************************-->
         <main id="tg-main" class="tg-main1 tg-haslayout">
 
+            <section class="tg-main-section-100 tg-haslayout">
+
+                <section class="s-booking-start">
+
+                    <div class="s-booking-main">
+                        <span class="img-punch">
+                            <img src="images/source/img-01.png" />
+                        </span>
+
+                        <div class="s-booking-form">
+                            <div class="s-booking-header">
+                                <div class="row">
+                                    <div class="col-md-6" style="perspective: 1000px;transform-style: preserve-3d;">
+                                        <div class="jb">
+
+                                        </div>
+                                        <!--<img src="images/bg/spirites.png" class="jb" />-->
+                                        <!--<img src="images/bg/sports.png" class="position-absolute" style="height: 144px; right: 0; top: -11px;" />-->
+                                        <!--<img src="images/bg/sport-35490.png" style="position:absolute" />
+                                        <img src="images/bg/sport-35490.png" style="position:absolute" />-->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <span class="arc"></span>
+                                    </div>
+                                </div>
+
+                                <!--style="background: url(images/bg/banner1.jpg) 0% 25%"-->
+                                <div class="s-booking-tabs">
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs border-0">
+                                        <li>
+                                            <a class="s-book-tab hvr-icon-wobble-vertical active" data-toggle="tab" href="#Location">
+                                                <img src="images/icon/placeholder.svg" class="position-relative hvr-icon" style="height: 17px;top: -2px;" /> Book & Play
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="s-book-tab hvr-icon-rotate" style="padding-left:32px" data-toggle="tab" href="#GTManage">
+                                                <img src="images/icon/football-court.svg " class="hvr-icon" style="height: 30px; position: absolute; left: 0; top: 6px;" />  GROUND / TURF MANAGEMENT
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--<picture>
+                                    <source srcset="images/bg/banner1.jpg" type="image/jpeg">
+                                    <img src="images/bg/banner1.jpg" class="w-100" alt="sportiana">
+                                </picture>-->
+                            </div>
+                            <div class="s-booking-body">
+                                <div class="d-flex bottom-xs flex-column">
+                                    <div class="tab-content">
+
+                                        <div id="Location" class="tab-pane fade show active">
+                                            <div class="tg-fixturedetail mb-0">
+                                                <div class="tg-fixturecounter mb-0" style="background:none">
+                                                    <div class="tg-section-heading">
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <div class="float-left1">
+                                                                    <div class="ms-header">
+                                                                        <h2 class="ms-header__title">
+                                                                            Looking for a
+                                                                            <div class="ms-slider">
+                                                                                <ul class="ms-slider__words">
+                                                                                    <li class="ms-slider__word">Turf ?</li>
+                                                                                    <li class="ms-slider__word">Event Organization ?</li>
+                                                                                    <li class="ms-slider__word">Fitness Mantra ?</li>
+                                                                                    <li class="ms-slider__word">Yoga Morning Time ?</li>
+                                                                                    <li class="ms-slider__word">Zumba Training ?</li>
+                                                                                    <li class="ms-slider__word">Full Body Cardio Workout ?</li>
+                                                                                    <li class="ms-slider__word">Old Age Meditation ?</li>
+                                                                                    <!-- This last word needs to duplicate the first one to ensure a smooth infinite animation -->
+                                                                                    <li class="ms-slider__word">Turf ?</li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </h2>
+                                                                    </div>
+
+                                                                    <p class="d-inline">
+                                                                        Search for football, cricket, hockey turfs near you.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <fieldset class="float-right1 ">
+                                                                    <div class="form-group d-flex">
+                                                                        <input type="text" class="form-control" placeholder="Search Location">
+
+                                                                        <a href="javascript(void:0)" style="padding:0 35px" class="tg-btn d-flex align-items-center justify-content-center hvr-icon-wobble-horizontal"> <i class="fa fa-search mr-3 hvr-icon"></i> Search</a>
+                                                                    </div>
+
+                                                                </fieldset>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+
+                                                    <div class="row">
+                                                        <div class="col-lg-4">
+                                                            <label class="text-white mb-3 lead text-uppercase">Select your Venue location</label>
+                                                            <!-- Multiselect dropdown -->
+                                                            <select multiple data-style="bg-white rounded-pill px-4 py-3 shadow-sm " class="selectpicker w-100">
+                                                                <option>Palghar</option>
+                                                                <option>Borivali</option>
+                                                                <option>Kandivali</option>
+                                                                <option>Virar</option>
+                                                                <option>Bhandup</option>
+                                                            </select><!-- End -->
+                                                        </div>
+                                                        <div class='col-lg-3'>
+                                                            <label class="text-white mb-3 lead text-uppercase">Preferred Date</label>
+                                                            <!-- Date Picker Input -->
+                                                            <div class="form-group mb-4">
+                                                                <div class="datepicker date input-group p-0 shadow-sm">
+                                                                    <input type="text" placeholder="Choose a reservation date" class="form-control py-4 px-4" id="reservationDate">
+                                                                    <div class="input-group-append"><span class="input-group-text px-4"><i class="fa fa-calendar" style="font-size: 14px;"></i></span></div>
+                                                                </div>
+                                                            </div><!-- DEnd ate Picker Input -->
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <div class="bfh-timepicker" data-mode="12h">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!--<div class="tg-btnbox">
+                                                        <a class="tg-btn" href="#">share</a>
+                                                        <a class="tg-btn" href="#">buy my ticket</a>
+                                                    </div>-->
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div id="GTManage" class="tab-pane fade">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+
+            <!--<div class="tg-sliderbox" style="height:100vh">
+                <div id="tg-home-sliderfade" class="tg-home-sliderfade tg-haslayout">
+                    <div class="swiper-wrapper" >
+                        <div class="swiper-slide" style="background-image:url(images/slider/img-03.jpg);"></div>
+                        <div class="swiper-slide" style="background-image:url(images/slider/img-04.jpg);"></div>
+                        <div class="swiper-slide" style="background-image:url(images/slider/img-05.jpg);"></div>
+                    </div>
+                </div>
+                <div class="tg-home-slidertwobg"></div>
+
+
+
+
+            </div>-->
+
+
             <section class="tg-main-section tg-haslayout">
+                <div class="container">
+                    <div class="tg-section-name">
+                        <h2>top Rated Player</h2>
+                    </div>
+                    <div class="col-sm-11 col-xs-11 pull-right">
+                        <div class="row">
+                            <div class="tg-topratedplayer tg-haslayout">
+                                <div class="row">
+                                    <div class="col-md-7 col-sm-12 col-xs-12">
+                                        <div id="tg-playerscrollbar" class="tg-players tg-playerscrollbar">
+                                            <div class="tg-player">
+                                                <div class="col-sm-6 col-xs-6 pull-right">
+                                                    <div class="tg-playcontent">
+                                                        <a class="tg-theme-tag" href="#">SWEEPER</a>
+                                                        <h3>
+                                                            <a href="#">Hustlin’ Owls</a>
+                                                        </h3>
+                                                        <span class="tg-stars"><span></span></span>
+                                                        <div class="tg-description">
+                                                            <p>Incididunt utia labore et dolore siti magna aliqua adinim lipat</p>
+                                                        </div>
+                                                        <ul class="tg-socialicons">
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-xs-6">
+                                                    <figure>
+                                                        <a href="#">
+                                                            <img src="images/player/img-01.png" alt="image description">
+                                                        </a>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="tg-player">
+                                                <div class="col-sm-6 col-xs-6 pull-right">
+                                                    <div class="tg-playcontent">
+                                                        <a class="tg-theme-tag" href="#">SWEEPER</a>
+                                                        <h3>
+                                                            <a href="#">Hustlin’ Owls</a>
+                                                        </h3>
+                                                        <span class="tg-stars"><span></span></span>
+                                                        <div class="tg-description">
+                                                            <p>Incididunt utia labore et dolore siti magna aliqua adinim lipat</p>
+                                                        </div>
+                                                        <ul class="tg-socialicons">
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-xs-6">
+                                                    <figure>
+                                                        <a href="#">
+                                                            <img src="images/player/img-02.png" alt="image description">
+                                                        </a>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="tg-player">
+                                                <div class="col-sm-6 col-xs-6 pull-right">
+                                                    <div class="tg-playcontent">
+                                                        <a class="tg-theme-tag" href="#">SWEEPER</a>
+                                                        <h3>
+                                                            <a href="#">Hustlin’ Owls</a>
+                                                        </h3>
+                                                        <span class="tg-stars"><span></span></span>
+                                                        <div class="tg-description">
+                                                            <p>Incididunt utia labore et dolore siti magna aliqua adinim lipat</p>
+                                                        </div>
+                                                        <ul class="tg-socialicons">
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-xs-6">
+                                                    <figure>
+                                                        <a href="#">
+                                                            <img src="images/player/img-03.png" alt="image description">
+                                                        </a>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="tg-player">
+                                                <div class="col-sm-6 col-xs-6 pull-right">
+                                                    <div class="tg-playcontent">
+                                                        <a class="tg-theme-tag" href="#">SWEEPER</a>
+                                                        <h3>
+                                                            <a href="#">Hustlin’ Owls</a>
+                                                        </h3>
+                                                        <span class="tg-stars"><span></span></span>
+                                                        <div class="tg-description">
+                                                            <p>Incididunt utia labore et dolore siti magna aliqua adinim lipat</p>
+                                                        </div>
+                                                        <ul class="tg-socialicons">
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-xs-6">
+                                                    <figure>
+                                                        <a href="#">
+                                                            <img src="images/player/img-01.png" alt="image description">
+                                                        </a>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="tg-player">
+                                                <div class="col-sm-6 col-xs-6 pull-right">
+                                                    <div class="tg-playcontent">
+                                                        <a class="tg-theme-tag" href="#">SWEEPER</a>
+                                                        <h3>
+                                                            <a href="#">Hustlin’ Owls</a>
+                                                        </h3>
+                                                        <span class="tg-stars"><span></span></span>
+                                                        <div class="tg-description">
+                                                            <p>Incididunt utia labore et dolore siti magna aliqua adinim lipat</p>
+                                                        </div>
+                                                        <ul class="tg-socialicons">
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-xs-6">
+                                                    <figure>
+                                                        <a href="#">
+                                                            <img src="images/player/img-02.png" alt="image description">
+                                                        </a>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="tg-player">
+                                                <div class="col-sm-6 col-xs-6 pull-right">
+                                                    <div class="tg-playcontent">
+                                                        <a class="tg-theme-tag" href="#">SWEEPER</a>
+                                                        <h3>
+                                                            <a href="#">Hustlin’ Owls</a>
+                                                        </h3>
+                                                        <span class="tg-stars"><span></span></span>
+                                                        <div class="tg-description">
+                                                            <p>Incididunt utia labore et dolore siti magna aliqua adinim lipat</p>
+                                                        </div>
+                                                        <ul class="tg-socialicons">
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-xs-6">
+                                                    <figure>
+                                                        <a href="#">
+                                                            <img src="images/player/img-03.png" alt="image description">
+                                                        </a>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                        <div class="tg-contentbox">
+                                            <div class="tg-section-heading">
+                                                <h2>consectetur adipisicing elit sed do eiusmid tempor incididunt labore</h2>
+                                            </div>
+                                            <div class="tg-description">
+                                                <p>Consectetur adipisicing elit sed do eiusmod tempor incididunt utia labore et dolore magna aliqua enim ad minim veniam quistrud on ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum doloreeu fugiat nulla pariatur cepteur sint occaecat.</p>
+                                            </div>
+                                            <div class="tg-btnbox">
+                                                <a class="tg-btn" href="#"><span>view all</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tg-main-section tg-haslayout d-none">
                 <div class="container">
                     <div class="tg-section-name">
                         <h2>Popular venues</h2>
@@ -266,17 +741,27 @@
                                                 <figcaption class="tg-img-hover">
                                                     <a href="#" class="tg-theme-tag">Popular</a>
                                                     <div class="tg-section-heading">
-                                                        <h3><a href="#">Sportiana Sports Arena - Turf 3</a></h3>
+                                                        <h3>
+                                                            <a href="#">Sportiana Sports Arena - Turf 3</a>
+                                                        </h3>
                                                         <span class="tg-stars"><span></span></span>
                                                     </div>
                                                     <div class="tg-description">
                                                         <p>Incididunt utia labore et dolore siti magna aliqua adinim lipat</p>
                                                     </div>
                                                     <ul class="tg-socialicons">
-                                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                                                        </li>
                                                     </ul>
                                                 </figcaption>
                                             </figure>
@@ -287,17 +772,27 @@
                                                 <figcaption class="tg-img-hover">
                                                     <a href="#" class="tg-theme-tag">Popular</a>
                                                     <div class="tg-section-heading">
-                                                        <h3><a href="#">Sportiana Sports Arena - Turf 4</a></h3>
+                                                        <h3>
+                                                            <a href="#">Sportiana Sports Arena - Turf 4</a>
+                                                        </h3>
                                                         <span class="tg-stars"><span></span></span>
                                                     </div>
                                                     <div class="tg-description">
                                                         <p>Incididunt utia labore et dolore siti magna aliqua adinim lipat</p>
                                                     </div>
                                                     <ul class="tg-socialicons">
-                                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                                                        </li>
                                                     </ul>
                                                 </figcaption>
                                             </figure>
@@ -308,17 +803,27 @@
                                                 <figcaption class="tg-img-hover">
                                                     <a href="#" class="tg-theme-tag">Popular</a>
                                                     <div class="tg-section-heading">
-                                                        <h3><a href="#">Sportiana Sports Arena - Turf 5</a></h3>
+                                                        <h3>
+                                                            <a href="#">Sportiana Sports Arena - Turf 5</a>
+                                                        </h3>
                                                         <span class="tg-stars"><span></span></span>
                                                     </div>
                                                     <div class="tg-description">
                                                         <p>Incididunt utia labore et dolore siti magna aliqua adinim lipat</p>
                                                     </div>
                                                     <ul class="tg-socialicons">
-                                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                                                        </li>
                                                     </ul>
                                                 </figcaption>
                                             </figure>
@@ -330,17 +835,27 @@
                                                 <figcaption class="tg-img-hover">
                                                     <a href="#" class="tg-theme-tag">Popular</a>
                                                     <div class="tg-section-heading">
-                                                        <h3><a href="#">Sportiana Sports Arena - Turf </a></h3>
+                                                        <h3>
+                                                            <a href="#">Sportiana Sports Arena - Turf </a>
+                                                        </h3>
                                                         <span class="tg-stars"><span></span></span>
                                                     </div>
                                                     <div class="tg-description">
                                                         <p>Incididunt utia labore et dolore siti magna aliqua adinim lipat</p>
                                                     </div>
                                                     <ul class="tg-socialicons">
-                                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                                                        </li>
                                                     </ul>
                                                 </figcaption>
                                                 <!--</div>-->
@@ -352,17 +867,27 @@
                                                 <figcaption class="tg-img-hover">
                                                     <a href="#" class="tg-theme-tag">Popular</a>
                                                     <div class="tg-section-heading">
-                                                        <h3><a href="#">Sportiana Sports Arena - Turf 1</a></h3>
+                                                        <h3>
+                                                            <a href="#">Sportiana Sports Arena - Turf 1</a>
+                                                        </h3>
                                                         <span class="tg-stars"><span></span></span>
                                                     </div>
                                                     <div class="tg-description">
                                                         <p>Incididunt utia labore et dolore siti magna aliqua adinim lipat</p>
                                                     </div>
                                                     <ul class="tg-socialicons">
-                                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                                                        </li>
                                                     </ul>
                                                 </figcaption>
                                             </figure>
@@ -373,24 +898,38 @@
                                                 <figcaption class="tg-img-hover">
                                                     <a href="#" class="tg-theme-tag">Popular</a>
                                                     <div class="tg-section-heading">
-                                                        <h3><a href="#">Sportiana Sports Arena - Turf 2</a></h3>
+                                                        <h3>
+                                                            <a href="#">Sportiana Sports Arena - Turf 2</a>
+                                                        </h3>
                                                         <span class="tg-stars"><span></span></span>
                                                     </div>
                                                     <div class="tg-description">
                                                         <p>Incididunt utia labore et dolore siti magna aliqua adinim lipat</p>
                                                     </div>
                                                     <ul class="tg-socialicons">
-                                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                                                        </li>
                                                     </ul>
                                                 </figcaption>
                                             </figure>
                                         </div>
                                     </div>
-                                    <div class="tg-themebtnnext"><span class="fa fa-angle-down"></span></div>
-                                    <div class="tg-themebtnprev"><span class="fa fa-angle-up"></span></div>
+                                    <div class="tg-themebtnnext">
+                                        <span class="fa fa-angle-down"></span>
+                                    </div>
+                                    <div class="tg-themebtnprev">
+                                        <span class="fa fa-angle-up"></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -455,10 +994,18 @@
                     <span class="tg-copyright">&copy; <span id="currentYear"></span>  |  All Rights Reserved</span>
                     <nav class="tg-footernav">
                         <ul>
-                            <li><a href="#">Main</a></li>
-                            <li><a href="#">Booking Ground</a></li>
-                            <li><a href="#">Terms & Condition</a></li>
-                            <li><a href="#">Subscription</a></li>
+                            <li>
+                                <a href="#">Main</a>
+                            </li>
+                            <li>
+                                <a href="#">Booking Ground</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms & Condition</a>
+                            </li>
+                            <li>
+                                <a href="#">Subscription</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -497,107 +1044,18 @@
     <!--************************************
         LightBoxes Start
     *************************************-->
-    <div class="tg-modalbox modal fade" id="tg-login" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="tg-modal-content">
-                <div class="tg-formarea">
-                    <div class="tg-border-heading">
-                        <h3>Login</h3>
-                    </div>
-                    <form class="tg-loginform" method="post">
-                        <fieldset>
-                            <div class="form-group">
-                                <input type="text" name="userName/email" class="form-control" placeholder="username/email">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" name="password" class="form-control" placeholder="password">
-                            </div>
-                            <div class="form-group">
-                                <label>
-                                    <input type="checkbox" value="rememberme" class="checkbox">
-                                    <em>Remember Me</em>
-                                </label>
-                                <a href="#">
-                                    <em>Forgot Password</em>
-                                    <i class="fa fa-question-circle"></i>
-                                </a>
-                            </div>
-                            <div class="form-group">
-                                <button class="tg-btn tg-btn-lg" type="submit">Login Now</button>
-                            </div>
-                            <div class="tg-description">
-                                <p>Don't have an account? <a href="#">Signup</a></p>
-                            </div>
-                        </fieldset>
-                    </form>
-                </div>
-                <div class="tg-logintype">
-                    <div class="tg-border-heading">
-                        <h3>Login with</h3>
-                    </div>
-                    <ul>
-                        <li class="tg-facebook"><a href="#">facebook</a></li>
-                        <li class="tg-twitter"><a href="#">twitter</a></li>
-                        <li class="tg-googleplus"><a href="#">google+</a></li>
-                        <li class="tg-linkedin"><a href="#">linkedin</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="tg-modalbox modal fade" id="tg-register" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="tg-modal-content">
-                <div class="tg-formarea">
-                    <div class="tg-border-heading">
-                        <h3>Signup</h3>
-                    </div>
-                    <form class="tg-loginform" method="post">
-                        <fieldset>
-                            <div class="form-group">
-                                <input type="text" name="userName" class="form-control" placeholder="username">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" name="email" class="form-control" placeholder="email">
-                            </div>
-                            <div class="form-group">
-                                <div class="tg-note">
-                                    <i class="fa fa-exclamation-circle"></i>
-                                    <span>We will email you your password.</span>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <button class="tg-btn tg-btn-lg" type="submit">Login Now</button>
-                            </div>
-                            <div class="tg-description">
-                                <p>Already have an account? <a href="#">Login</a></p>
-                            </div>
-                        </fieldset>
-                    </form>
-                </div>
-                <div class="tg-logintype">
-                    <div class="tg-border-heading">
-                        <h3>Signup with</h3>
-                    </div>
-                    <ul>
-                        <li class="tg-facebook"><a href="#">facebook</a></li>
-                        <li class="tg-twitter"><a href="#">twitter</a></li>
-                        <li class="tg-googleplus"><a href="#">google+</a></li>
-                        <li class="tg-linkedin"><a href="#">linkedin</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
     <!--************************************
         LightBoxes End
     *************************************-->
     <script src="js/vendor/jquery-library.js"></script>
     <!--<script src="js/vendor/bootstrap.min.js"></script>-->
     <script src="js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/vendor/bootstrap-formhelpers.min.js"></script>
+
+
     <script src="js/customScrollbar.min.js"></script>
     <!-- MDB -->
-    <script src="js/mdb.min.js"></script>
+    <!--<script src="js/mdb.min.js"></script>-->
 
     <script src="js/owl.carousel.js"></script>
     <script src="js/isotope.pkgd.js"></script>
@@ -607,6 +1065,9 @@
     <script src="js/countTo.js"></script>
     <script src="js/appear.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/vendor/bootstrap-select.min.js"></script>
+    <script src="js/vendor/bootstrap-datepicker.min.js"></script>
+
 </body>
 
 </html>

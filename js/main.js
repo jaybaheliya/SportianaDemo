@@ -330,6 +330,18 @@ $(document).ready(function() {
 		}
 	});
 
+	// Material Select Initialization
+
+	$('.selectpicker').selectpicker();
+
+	// INITIALIZE DATEPICKER PLUGIN
+	$('.datepicker').datepicker({
+		clearBtn: true,
+		format: "dd/mm/yyyy"
+	});	
+	$('#datetimepicker3').datetimepicker({
+		format: 'LT'
+	});
 	/*------------------------------------------
 			CONTENT ANIMATION
 	------------------------------------------*/
