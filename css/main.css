@@ -7110,3 +7110,67 @@ ol, ul {
 .bfh-timepicker-popover > table > tbody > tr > td.separator {
     vertical-align: middle;
 }
+.bfh-selectbox .bfh-selectbox-toggle {
+    display: inline-block;
+    padding: 14px 24px 14px 12px;
+    text-decoration: none;
+    height: 100%;
+    line-height: 20px;
+}
+.bfh-selectbox .bfh-selectbox-options ul li{
+    list-style: none;
+}
+.bfh-selectbox .bfh-selectbox-options {
+    width:100% !important;
+    min-width:100%;
+}
+    .bfh-selectbox .bfh-selectbox-options ul li > a {
+        padding: 3px 12px;
+        font-size: 14px;
+    }
+.bfh-timepicker .bfh-timepicker-toggle {
+    background: #fff;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.bfh-timepicker .bfh-timepicker-toggle input{
+  height:40px;
+}
+    .bfh-timepicker .bfh-timepicker-toggle .input-group-addon {
+        padding: 0px 15px 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+    }
+    .bfh-timepicker .bfh-timepicker-toggle .input-group-addon > i {
+      top:0;
+    }
+.visible-hidden {
+    visibility:hidden;
+}
+.bfh-timepicker-popover .input-group-addon {
+    padding: 5px 10px !important;
+    font-size: 10px !important;
+    border-radius: 2px !important;
+}
+.bfh-timepicker-popover table input {
+    box-shadow: 0 0 2px rgb(0 0 0 / 30%);
+}
+.jb-sprites {
+    background: url(../images/bg/football1.png);
+    background-size:cover;
+}
+
+
+#player {
+    height: 100%;
+    width: 68%;
+    position: Absolute;
+    left: 30%;
+}
+
+
+
+
+
