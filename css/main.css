@@ -6607,6 +6607,18 @@ div.system-loader-wrap {
     border-left: 8px solid #e43131;
     /*animation:filter  infinite 3s linear;*/
 }
+.arc2 {
+    background: #ddd;
+    background-clip: border-box;
+    min-height: 130px;
+    width: 110%;
+    display: block;
+    position: absolute;
+    transform: skewX( 332deg );
+    background: url(../images/bg/banner1.jpg) 68% 46%;
+    border-left: 8px solid #e43131;
+    /*animation:filter  infinite 3s linear;*/
+}
 .s-booking-form:after {
     content: "";
     box-shadow: 0 0px 10px 10px hsl(106deg 40% 33% / 40%);
@@ -7170,7 +7182,56 @@ ol, ul {
     left: 30%;
 }
 
+.bg-groundBooking {
+    background: url(../images/bg/turfG.jpg);
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 50%;
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-groundBooking:before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.tg-home-slidertwobg-2 {
+    top: 0;
+    left: -60px;
+    width: 64%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    -webkit-transform: skewX( -6deg );
+    -moz-transform: skewX(-6deg);
+    -ms-transform: skewX(-6deg);
+    -o-transform: skewX(-6deg);
+    transform: skewX( -6deg );
+    background: #fff url(../images/bg-pattran.png);
+}
 
 
-
-
+.sportiana {
+    font-size: 119px;
+    background: -webkit-linear-gradient(#ff9800, #ff3d00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 14px rgb(0 0 0 / 20%);
+    -webkit-text-stroke: 2px aliceblue;
+    letter-spacing: 8px;
+    z-index: 2;
+}
